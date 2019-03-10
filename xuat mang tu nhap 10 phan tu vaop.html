@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let array = [];
+    let a;
+    index = prompt("NHAP y DE THEM PHAN TU VAO MANG.NHAP n KET THUC MANG");
+    while (index == "y"){
+        a = prompt("NHAP PHAN TU "+array.length+" CUA MANG");
+        array.push(a);
+        document.write(array+"<br>");
+        index = prompt("NHAP y DE THEM PHAN TU VAO MANG.NHAP n KET THUC MANG");
+    }document.write("MANG MA BAN NHAP PHAN TU VAO LA "+array+ "<br>");
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="myInput"/>
+<button type="button" onclick="check()">CLICK ME</button>
+<script>
+let english =["dog", "pig", "chicken", "cat"];
+let tiengviet = ["cho", "lon", "ga", "meo"];
+a = document.getElementById(check).value;
+function check() {
+for(let i = 0;i<english.length;i++){
+    if(a === english[i]){
+        alert(tiengviet[i]);
+    }
+}
+}
+
+</script>
+</body>
+</html>
